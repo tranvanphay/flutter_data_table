@@ -1,0 +1,109 @@
+[
+    {
+        "product_code":"123456",
+        "product_name":"Tablet Samsung",
+        "product_image":"https://cdn.webshopapp.com/shops/15250/files/328858102/256x256x2/eu-samsung-galaxy-tab-a-80-32gb-wi-fi-sm-t290-blac.jpg",
+        "product_prices":"$200"
+    },
+    {
+        "product_code":"234567",
+        "product_name":"Tablet Huawei",
+        "product_image":"https://www.camparts.nl/web/image/167177/huawei-mediapad-m5-10-1.png",
+        "product_prices":"$150"
+    },
+    {
+        "product_code":"345678",
+        "product_name":"Tablet Sony",
+        "product_image":"https://s.cdnshm.com/catalog/za/t/74469394/kwmobile-360a-case-for-sony-xperia-tablet-z-pu-leather-protective.jpg",
+        "product_prices":"$350"
+    },
+    {
+        "product_code":"456789",
+        "product_name":"Tablet LG",
+        "product_image":"https://www.nnet.com.uy/productos/imgs/tablet-lg-g-pad-5-10_1-full-hd-32gb-4gb-8mp-lte-wifi-android-nnet-58059-31.jpg",
+        "product_prices":"$250"
+    },
+    {
+        "product_code":"5678910",
+        "product_name":"Tablet Xiaomi",
+        "product_image":"https://s.cdnshm.com/catalog/za/t/74121094/lenovo-tab-m10-10-1-2nd-gen-64gb-tb-x306x.jpg",
+        "product_prices":"$450"
+    },
+    {
+        "product_code":"67891011",
+        "product_name":"Tablet Asus",
+        "product_image":"https://s.cdnshm.com/catalog/rs/t/42736795/tablet-me302c-1a055a-beli-asus.jpg",
+        "product_prices":"$350"
+    },{
+        "product_code":"123456",
+        "product_name":"Tablet Samsung 1",
+        "product_image":"https://cdn.webshopapp.com/shops/15250/files/328858102/256x256x2/eu-samsung-galaxy-tab-a-80-32gb-wi-fi-sm-t290-blac.jpg",
+        "product_prices":"$200"
+    },
+    {
+        "product_code":"234567",
+        "product_name":"Tablet Huawei 1",
+        "product_image":"https://www.camparts.nl/web/image/167177/huawei-mediapad-m5-10-1.png",
+        "product_prices":"$150"
+    },
+    {
+        "product_code":"345678",
+        "product_name":"Tablet Sony 1",
+        "product_image":"https://s.cdnshm.com/catalog/za/t/74469394/kwmobile-360a-case-for-sony-xperia-tablet-z-pu-leather-protective.jpg",
+        "product_prices":"$350"
+    },
+    {
+        "product_code":"456789",
+        "product_name":"Tablet LG 1",
+        "product_image":"https://www.nnet.com.uy/productos/imgs/tablet-lg-g-pad-5-10_1-full-hd-32gb-4gb-8mp-lte-wifi-android-nnet-58059-31.jpg",
+        "product_prices":"$250"
+    },
+    {
+        "product_code":"5678910",
+        "product_name":"Tablet Xiaomi 1",
+        "product_image":"https://s.cdnshm.com/catalog/za/t/74121094/lenovo-tab-m10-10-1-2nd-gen-64gb-tb-x306x.jpg",
+        "product_prices":"$450"
+    },
+    {
+        "product_code":"67891011",
+        "product_name":"Tablet Asus 1",
+        "product_image":"https://s.cdnshm.com/catalog/rs/t/42736795/tablet-me302c-1a055a-beli-asus.jpg",
+        "product_prices":"$350"
+    },
+    {
+        "product_code":"123456",
+        "product_name":"Tablet Samsung 2",
+        "product_image":"https://cdn.webshopapp.com/shops/15250/files/328858102/256x256x2/eu-samsung-galaxy-tab-a-80-32gb-wi-fi-sm-t290-blac.jpg",
+        "product_prices":"$200"
+    },
+    {
+        "product_code":"234567",
+        "product_name":"Tablet Huawei 2",
+        "product_image":"https://www.camparts.nl/web/image/167177/huawei-mediapad-m5-10-1.png",
+        "product_prices":"$150"
+    },
+    {
+        "product_code":"345678",
+        "product_name":"Tablet Sony 2",
+        "product_image":"https://s.cdnshm.com/catalog/za/t/74469394/kwmobile-360a-case-for-sony-xperia-tablet-z-pu-leather-protective.jpg",
+        "product_prices":"$350"
+    },
+    {
+        "product_code":"456789",
+        "product_name":"Tablet LG 2",
+        "product_image":"https://www.nnet.com.uy/productos/imgs/tablet-lg-g-pad-5-10_1-full-hd-32gb-4gb-8mp-lte-wifi-android-nnet-58059-31.jpg",
+        "product_prices":"$250"
+    },
+    {
+        "product_code":"5678910",
+        "product_name":"Tablet Xiaomi 2",
+        "product_image":"https://s.cdnshm.com/catalog/za/t/74121094/lenovo-tab-m10-10-1-2nd-gen-64gb-tb-x306x.jpg",
+        "product_prices":"$450"
+    },
+    {
+        "product_code":"67891011",
+        "product_name":"Tablet Asus 2",
+        "product_image":"https://s.cdnshm.com/catalog/rs/t/42736795/tablet-me302c-1a055a-beli-asus.jpg",
+        "product_prices":"$350"
+    }
+]
