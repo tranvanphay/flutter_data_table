@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:data_table_2/data_table_2.dart';
+import 'package:demo_data_table/library/paging_data_table_2_lib/data_table_2.dart';
 import 'package:demo_data_table/model/product.dart';
 import 'package:demo_data_table/widget/small_img.dart';
 import 'package:flutter/material.dart';
@@ -61,12 +61,22 @@ class _DataTable2SimpleDemoState extends State<DataTable2SimpleDemo> {
   }
 
   List<DataRow> getRows(List<Product> products) => products
-      .map((Product product) => DataRow(cells: [
-            DataCell(Text(product.productCode)),
-            DataCell(SmallImg(url: product.productImage)),
-            DataCell(Text(product.productName)),
-            DataCell(Text(product.productPrices)),
-          ]))
+      .map((Product product) => DataRow(
+              onSelectChanged: (isSelected) {
+                if (isSelected != null && isSelected) {
+                  print("Selected");
+                } else if (isSelected != null && !isSelected) {
+                  print("Selected == false");
+                } else {
+                  print("Selected == null");
+                }
+              },
+              cells: [
+                DataCell(Text(product.productCode)),
+                DataCell(SmallImg(url: product.productImage)),
+                DataCell(Text(product.productName)),
+                DataCell(Text(product.productPrices)),
+              ]))
       .toList();
 
   List<DataColumn> getColumns(List<String> columns) =>

@@ -1,6 +1,6 @@
+import 'package:demo_data_table/library/paging_data_table_2_lib/paginated_data_table_2.dart';
 import 'package:demo_data_table/utils/data_source.dart';
 import 'package:flutter/material.dart';
-import 'package:data_table_2/paginated_data_table_2.dart';
 
 // Copyright 2019 The Flutter team. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
@@ -67,6 +67,7 @@ class _PaginatedDataTable2DemoState extends State<PaginatedDataTable2Demo> {
           header: Text('PaginatedDataTable2'),
           rowsPerPage: _rowsPerPage,
           minWidth: 400,
+          showCheckboxColumn: false,
           fit: FlexFit.tight,
           onRowsPerPageChanged: (value) {
             setState(() {
@@ -132,6 +133,9 @@ class _PaginatedDataTable2DemoState extends State<PaginatedDataTable2Demo> {
             ),
           ],
           source: _dessertsDataSource,
+          onRowTapped: (value) {
+            print("value tapped: $value");
+          },
         ),
       ),
     );

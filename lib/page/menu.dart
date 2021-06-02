@@ -3,6 +3,7 @@ import 'package:demo_data_table/page/data_table_2.dart';
 import 'package:demo_data_table/page/horizontal_data_table_demo.dart';
 import 'package:demo_data_table/page/paging_data_table.dart';
 import 'package:demo_data_table/page/paging_data_table_2.dart';
+import 'package:demo_data_table/page/test_merge_cell.dart';
 import 'package:demo_data_table/widget/base_button.dart';
 import 'package:flutter/material.dart';
 
@@ -79,7 +80,20 @@ class Menu extends StatelessWidget {
                               builder: (context) => HorizontalDataTableDemo(
                                   title: "HorizontalDataTableDemo")));
                     }
-                  })
+                  }),
+              Padding(padding: const EdgeInsets.only(top: 10)),
+              BaseButton(
+                  textButton: "Wrap Column",
+                  buttonColor: Colors.yellow,
+                  textColor: Colors.white,
+                  onPressed: (isPressed) {
+                    if (isPressed) {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => TestMergeCell()));
+                    }
+                  }),
             ],
           ),
         ),
